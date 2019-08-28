@@ -1,0 +1,94 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Above CSS came with create-react-app */
+
+.navbar {
+  opacity: 0.8;
+}
+body {
+  background-image: url(./img/apple-code-codes-574069.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+col-md-3 {
+  position: relative;
+}
+
+.card-column {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.card-header {
+  background-color: #2b1e15;
+  opacity: 0.9;
+  color: white;
+}
+
+.jumbotron {
+  opacity: 0.8;
+  margin-top: 7rem;
+}
+
+@media screen and (max-width: 360px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .card-column {
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-column {
+    left: 65%;
+  }
+}
