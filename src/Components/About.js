@@ -10,7 +10,7 @@ const About = () => {
           University of Houston Downtown at which point I relocated to Chicago,
           Illinois. Full stack web development combines my passions for
           programming, system administration, and making applications that can
-          benefit anyone by using on their desktop or mobile.
+          benefit anyone on their desktop or mobile.
         </p>
         <hr className='my-4' />
         <p>
