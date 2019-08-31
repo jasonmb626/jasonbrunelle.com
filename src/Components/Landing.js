@@ -2,9 +2,9 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div className='container d-inline-block vh-100'>
-      <div className='row d-inline-block h-100 w-100'>
-        <div className='col-md-6 col-lg-3 d-inline-block h-100'>
+    <div className='container-fluid full-width h-100'>
+      <div className='row align-content-center'>
+        <div className='col-12 col-md-4 col-lg-3'>
           <div className='card-column'>
             <div className='card text-center'>
               <div className='card-header'>Back End</div>
@@ -31,9 +31,9 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className='col-md-6 col-lg-3 d-inline-block h-100'>
+        <div className='col-12 col-md-4 col-lg-3'>
           <div className='card-column'>
-            <div className='card text-center'>
+            <div className='card text-center mt-3 mt-md-0'>
               <div className='card-header'>Other Languages</div>
               <div className='card-body text-justify'>
                 <ul>

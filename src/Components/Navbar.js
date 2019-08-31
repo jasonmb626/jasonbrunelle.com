@@ -4,8 +4,8 @@ import resume from '../resources/Jason Brunelle Resume.pdf';
 
 const Navbar = () => {
   return (
-    <div className='navbar navbar-expand-sm navbar-dark bg-dark fixed-top'>
-      <div className='container'>
+    <div className='navbar navbar-expand-md navbar-dark bg-dark fixed-top'>
+      <div className='container-fluid'>
         <div className='navbar-brand mr-auto'>
           Jason Brunelle, <div className='d-none d-lg-inline'>Full Stack </div>
           Web Developer
@@ -18,7 +18,7 @@ const Navbar = () => {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarCollapse'>
-          <ul className='navbar-nav ml-auto text-right'>
+          <ul className='navbar-nav mr-1 ml-auto text-right'>
             <li className='nav-item'>
               <NavLink to='/' exact className='nav-link'>
                 Home
@@ -41,7 +41,8 @@ const Navbar = () => {
                 rel='noopener noreferrer'
                 className='nav-link'
               >
-                <i className='far fa-file-pdf' />'
+                <span className='d-inline d-lg-none'>Resume </span>
+                <i className='far fa-file-pdf' />
                 <span className='d-none d-lg-inline'> Resume</span>
               </a>
             </li>
@@ -53,6 +54,7 @@ const Navbar = () => {
                 rel='noopener noreferrer'
                 className='nav-link'
               >
+                <span className='d-inline d-lg-none'>Github </span>
                 <i className='fab fa-github' />
                 <span className='d-none d-lg-inline'> Github</span>
               </a>
@@ -64,6 +66,7 @@ const Navbar = () => {
                 rel='noopener noreferrer'
                 className='nav-link'
               >
+                <span className='d-inline d-lg-none'>LinkedIn </span>
                 <i className='fab fa-linkedin' />
                 <span className='d-none d-lg-inline'> LinkedIn</span>
               </a>

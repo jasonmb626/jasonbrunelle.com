@@ -53,17 +53,6 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-col-md-3 {
-  position: relative;
-}
-
-.card-column {
-  position: absolute;
-  top: 50%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-}
-
 .card-header {
   background-color: #2b1e15;
   opacity: 0.9;
@@ -75,20 +64,74 @@ col-md-3 {
   margin-top: 7rem;
 }
 
-@media screen and (max-width: 360px) {
+.navbar .container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 816px) {
+  .container.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-left: 4.5rem;
+    margin-right: 0;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 815px) {
   .navbar-brand {
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 992px) {
-  .card-column {
-    left: 55%;
+/* @media screen and (max-width: 991px) {
+  .navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden;
+  }
+  .container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-fluid.full-width .card {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+} */
+
+@media (min-width: 768px) and (max-width: 1300px) {
+  .container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 4rem;
+    margin-right: 0;
+  }
+  .container-fluid.full-width .card {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .card-column {
-    left: 65%;
+@media (max-height: 750px) {
+  .row {
+    height: auto;
+    margin-top: 4.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-height: 751px) {
+  .row {
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
