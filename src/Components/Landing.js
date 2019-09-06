@@ -26,11 +26,13 @@ const Landing = () => {
               <div className='card-body text-left'>
                 <ul>
                   <li>HTML, CSS, JavaScript</li>
-                  <li>React</li>
-                  <ul>
-                    <li>Context API</li>
-                    <li>Redux</li>
-                  </ul>
+                  <li>
+                    React
+                    <ul>
+                      <li>Context API</li>
+                      <li>Redux</li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
