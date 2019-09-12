@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Landing from './Components/Landing';
 import About from './Components/About';
-import Examples from './Components/Examples';
+import Portfolio from './Components/Portfolio';
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={Landing} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/examples' component={Examples} />
+          <Route exact path='/portfolio' component={Portfolio} />
         </Switch>
       </div>
     </Router>
