@@ -78,10 +78,17 @@ body {
   color: white;
 }
 
+.show-md {
+  display: none;
+}
+
 .jumbotron {
-  opacity: 0.8;
-  margin-top: 7rem;
+  padding: 2rem 1rem;
+  opacity: 0.9;
+  margin-top: 4rem;
   width: 85%;
+  color: #333;
+  text-align: justify;
 }
 
 .navbar .container-fluid {
@@ -91,6 +98,12 @@ body {
   margin-right: 0;
 }
 
+@media (min-width: 500px) {
+  .show-md {
+    display: block;
+  }
+}
+
 @media screen and (min-width: 816px) {
   .container-fluid.full-width {
     padding-left: 0;
@@ -98,6 +111,9 @@ body {
     margin-top: 0;
     margin-left: 4.5rem;
     overflow-x: hidden;
+  }
+  .jumbotron {
+    margin-top: 7rem;
   }
 }
 @media screen and (max-width: 815px) {
