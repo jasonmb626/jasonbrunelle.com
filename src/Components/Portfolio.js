@@ -89,6 +89,25 @@ const Portfolio = () => {
           </a>
           &nbsp;to see for yourself and get more information.
         </div>
+        <div className='jumbotron'>
+          <h3>Block the Blob (Collaborator)</h3>{' '}
+          <h5>A game made for a school project. I was part of a team of 3.</h5>
+          <h5 className='mt-3'>This project explores</h5>
+          <ul>
+            <li><a href="https://processing.org/" target='_blank'
+            rel='noopener noreferrer'>Processing</a> software skethbook</li>
+            <li>Team collaboration</li>
+            <li>Game design</li>
+          </ul>
+          <a
+            href='https://github.com/jasonmb626/BlockTheBlob'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Visit the GitHub
+          </a>
+          &nbsp;to see for yourself and get more information.
+        </div>
       </div>
     </div>    
   );
