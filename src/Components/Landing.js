@@ -6,7 +6,7 @@ const Landing = () => {
       <div className='container-fluid full-width h-100'>
         <div className='row header-row'>
           <div className='col-12 col-md-8 col-lg-6 mt-auto text-center text-white'>
-            <h1>Skills</h1>
+            <h1>Top Skills</h1>
           </div>
         </div>
         <div className='row content-row mb-auto'>
@@ -17,7 +17,10 @@ const Landing = () => {
                 <div className='card-body text-left'>
                   <ul>
                     <li>NodeJs/Express</li>
-                    <li>MongoDB/Postgres</li>
+                    <li>NestJS (Learning)</li>
+                    <li>MongoDB/Postgres/MySQL</li>
+                    <li>Mongoose (ODM)</li>
+                    <li>Sequelize/TypeORM (ORM)</li>
                     <li>Linux</li>
                   </ul>
                 </div>
@@ -34,6 +37,8 @@ const Landing = () => {
                         <li>Redux</li>
                       </ul>
                     </li>
+                    <li>Mobile: React Native</li>
+                    <li>Angular (Learning)</li>
                   </ul>
                 </div>
               </div>
@@ -45,9 +50,8 @@ const Landing = () => {
                 <div className='card-header'>Other Languages</div>
                 <div className='card-body text-left'>
                   <ul>
-                    <li>C/C++/C#</li>
+                    <li>C#</li>
                     <li>Java</li>
-                    <li>Visual Basic</li>
                   </ul>
                 </div>
               </div>

@@ -47,6 +47,18 @@ html {
   opacity: 0.8;
 }
 
+.fixed-top-bottom {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  color: rgb(202, 178, 133);
+  font-size: 0.8rem;
+}
+
+.icon-credit {
+  margin-right: 3rem;
+}
+
 body {
   height: 100%;
   overflow-x: hidden;
@@ -85,7 +97,7 @@ body {
 .jumbotron {
   padding: 2rem 1rem;
   opacity: 0.9;
-  margin-top: 4rem;
+  margin-top: 2rem;
   width: 85%;
   color: #333;
   text-align: justify;
@@ -113,7 +125,10 @@ body {
     overflow-x: hidden;
   }
   .jumbotron {
-    margin-top: 7rem;
+    margin-top: 3rem;
+  }
+  .jumbotron:first-of-type {
+    margin-top: 5rem;
   }
 }
 @media screen and (max-width: 815px) {

@@ -11,7 +11,7 @@ const About = () => {
             programming since the age of 11 and setting up Linux and Windows
             machines since the age of 19. 20+ years later I have as much passion
             as I ever had. With 15 years management experience on top of this, I
-            bring a level of maturity lacking in many recent college graduates.
+            bring maturity, dedication, and professionalism to the table.
           </p>
           <p className='show-md'>
             I recently graduated with a degree in Computer Science from the
@@ -21,8 +21,7 @@ const About = () => {
             can benefit anyone on their desktop or mobile. It has been a joy to
             watch as JavaScript grew from a language we tolerated because we
             didn't have anything better into a language that is sought out even
-            for back-end development. I embrace functional programming concepts
-            and higher-order functions.
+            for back-end development, data scraping, and console applications.
           </p>
         </div>
       </div>
