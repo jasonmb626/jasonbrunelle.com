@@ -78,6 +78,37 @@ const Portfolio = () => {
           &nbsp;to see for yourself and get more information.
         </div>
         <div className="jumbotron">
+          <h3>Meet My Types (Contributor)</h3>{' '}
+          <h5>
+            A team-built match-making app with a React Frontend and with AWS backend.
+          </h5>
+          <h5 className="mt-3">This project explores</h5>
+          <ul>
+            <li>Amazon Web Services (AWS)</li>
+              <ul>
+                <li>API Gateway</li>                
+                <li>Lambdas (NodeJS)</li>                
+                <li>Cognito</li>
+                <li>DynamoDB</li>
+              </ul>
+            <li>ReactJS</li>
+            <li>GitHub Workflows</li>
+            <li>Agile Setting</li>
+          </ul>
+          <a
+            href="https://github.com/zCode-Solutions/meetMyTypes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit the GitHub
+          </a>
+          &nbsp;to see for yourself and get more information. Or just look at the <a
+            href="https://github.com/zCode-Solutions/meetMyTypes/blob/dev/AUTHORS.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >authors</a> document if you're interested.
+        </div>
+        <div className="jumbotron">
           <h3>Job Dashboard</h3>{' '}
           <h5>
             Custom full stack web app to keep track of jobs applied to, who to
