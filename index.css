@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.monitor {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.monitor-container {
+    position: relative;
+}
+
+.monitor-screen {
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    width: 91%;
+    height: 62%;
+    overflow: hidden;
+}
+
+#screen-lines {
+    font-family: "Courier New", Courier, monospace;
+}
