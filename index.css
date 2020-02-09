@@ -1,7 +1,9 @@
 header {
     width: 100%;
-    height: auto;
-    margin-top: 60px;
+    height: 100%;
+    margin-top: 55px;
+    padding: 8px;
+    background-color: var(--background);
 }
 
 .monitor {
@@ -14,6 +16,23 @@ header {
     position: relative;
 }
 
+#disable-typing-directive {
+    display: inline-block;
+    position: absolute;
+    left: 57%;
+    top: 1.5%;
+    width: 100%;
+    height: 5%;
+    overflow: hidden;
+    font-size: 0.7rem;
+    color: var(--dark-bg);
+    font-size: 0.5rem;
+}
+
+#disable-typing-directive.no-show {
+    display: none;
+}
+
 .monitor-screen {
     display: inline-block;
     position: absolute;
@@ -21,9 +40,84 @@ header {
     top: 7%;
     width: 91%;
     height: 62%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
 
 #screen-lines {
     font-family: "Courier New", Courier, monospace;
+    color: var(--light-bg);
+}
+
+#favorite-message {
+    font-family: "Courier New", Courier, monospace;
+    color: var(--light-bg);
+    margin-top: 10px;
+}
+
+#favorite-message.no-show {
+    display: none;
+}
+
+#additional-technologies {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#additional-technologies.no-show {
+    display: none;
+}
+
+#additional-technologies i {
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.technology-example {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-bg);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.technology-example:hover {
+    background-color: var(--background);
+}
+
+.technology-example span {
+    margin: auto;
+    text-align: center;
+    color: var(--light-color);
+}
+
+#down-arrow {
+    position: absolute;
+    left: 90%;
+    top: 60%;
+    color: var(--light-color);
+}
+
+#down-arrow.no-show {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #disable-typing-directive {
+        display: inline-block;
+        position: absolute;
+        left: 65%;
+        top: 1.8%;
+        width: 100%;
+        height: 5%;
+        overflow: hidden;
+        font-size: 0.7rem;
+        color: var(--dark-bg);
+        font-size: 1rem;
+    }
 }

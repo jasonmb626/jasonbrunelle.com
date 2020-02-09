@@ -1,0 +1,31 @@
+body {
+    background-color: var(--background);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.card h1, p {
+    padding: 12px 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+p.lead {
+    font-size: 1.3rem;
+}
