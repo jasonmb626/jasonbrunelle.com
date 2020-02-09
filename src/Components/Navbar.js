@@ -4,11 +4,10 @@ import resume from '../resources/Jason Brunelle Resume.docx';
 
 const Navbar = () => {
   return (
-    <div className='navbar navbar-expand-md navbar-dark bg-dark fixed-top'>
+    <nav className='navbar'>
       <div className='container-fluid'>
         <div className='navbar-brand mr-auto'>
-          Jason Brunelle, <div className='d-none d-lg-inline'>Full Stack </div>
-          Web Developer
+          Jason Brunelle, Web Developer
         </div>
         <button
           className='navbar-toggler'
@@ -77,7 +76,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

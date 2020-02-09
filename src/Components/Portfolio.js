@@ -2,17 +2,11 @@ import React from 'react';
 
 const Portfolio = () => {
   return (
-    <div className="bg-image portfolio-image">
+    <main className="bg-image portfolio-image">
       <div className="container-fluid full-width h-100">
         <div className="jumbotron">
-          <h3>Welcome to my portfolio!</h3>{' '}
-          <h6 className="mt-3">
-            This portfolio is JavaScript-heavy. I also have experience with C#
-            and Java (I practice HackerRank challenges in these languages) as
-            well as C and C++ in school. My full projects tend towards
-            JavaScript at this time. These projects do reinvent the wheel a bit,
-            but have been a great chance to learn new skills.
-          </h6>
+          <h1>Welcome to my portfolio!</h1>{' '}
+          <p>I'm showcasing different parts of the tech stack from front to back end. I've recently focused on JavaScript, specifically React apps as a way to learn more front end skills. I also have worked in C# and Java including HackerRank challenges in both languages. In school I studied C and C++, but I also have experience with databases and SQL.</p>
         </div>
         <div className="jumbotron">
           <h3>Texas House Witness</h3>{' '}
@@ -209,7 +203,7 @@ const Portfolio = () => {
           &nbsp;to see for yourself and get more information.
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

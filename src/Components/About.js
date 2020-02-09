@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='bg-image about-image'>
+    <main className='bg-image about-image'>
       <div className='container'>
         <div className='jumbotron mx-auto'>
           <h1 className='display-4'>About Me</h1>
@@ -25,7 +25,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
