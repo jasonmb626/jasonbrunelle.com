@@ -1,0 +1,22 @@
+main {
+    margin-top: 55px;
+    background-color: var(--background);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.card {
+    margin: 32px;
+}
+
+a {
+    color: var(--dark-bg);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 0 0.8rem;
+}

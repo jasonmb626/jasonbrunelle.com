@@ -1,31 +1,36 @@
 body {
     background-color: var(--background);
 }
+
+header {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    min-height: 100vh;
+    background: url(./about.jpg) center center/cover;
+}
+
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 55px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    background-color: var(--light-color);
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: var(--main-color);
+    padding: 10px;
     border-radius: 5px;
-    padding: 50px;
-    margin: 50px;
 }
 
-.card h1, p {
-    padding: 12px 0;
+a:hover {
+    background-color: var(--background);
 }
 
-p {
-    font-size: 1.1rem;
-}
-
-p.lead {
-    font-size: 1.3rem;
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
 }

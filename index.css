@@ -38,7 +38,7 @@ header {
     position: absolute;
     left: 5%;
     top: 7%;
-    width: 91%;
+    width: 91.75%;
     height: 62%;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -105,6 +105,13 @@ header {
 
 #down-arrow.no-show {
     display: none;
+}
+
+a {
+    color: var(--light-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 @media screen and (min-width: 768px) {

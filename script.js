@@ -24,7 +24,9 @@ const intervalFunc = () => {
         screen_lines_element.innerHTML = screen_text + '|';
         document.getElementById('disable-typing-directive').classList.toggle('no-show');
         document.getElementById('additional-technologies').classList.toggle('no-show');
-        document.getElementById('down-arrow').classList.remove('no-show');
+        const monitor_screen = document.querySelector('.monitor-screen');
+        if (monitor_screen.scrollHeight > monitor_screen.clientHeight) 
+            document.getElementById('down-arrow').classList.remove('no-show');
         setInterval(cursorInterval, 800);
     } else {
         setTimeout(intervalFunc, rndTime);
@@ -46,6 +48,8 @@ document.querySelector('.monitor-screen').addEventListener('scroll', e => {
         document.getElementById('down-arrow').classList.add('no-show');
     }
 });
+
+console.dir(document.querySelector('.monitor-screen'))
 
 function getScrollPercent(documentElement) {
     var h = documentElement, 
