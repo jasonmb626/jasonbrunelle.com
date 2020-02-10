@@ -38,10 +38,10 @@ header {
     position: absolute;
     left: 5%;
     top: 7%;
-    width: 91.75%;
+    width: 91%;
     height: 62%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 
@@ -105,6 +105,19 @@ header {
 
 #down-arrow.no-show {
     display: none;
+}
+
+.fade-in {
+    animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
 }
 
 a {
