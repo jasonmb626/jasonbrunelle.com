@@ -1,5 +1,7 @@
 const screen_lines_element = document.getElementById('screen-lines');
 const additionalTechnologiesElement = document.getElementById('additional-technologies');
+let cursorSpan;
+
 const screen_text = screen_lines_element.dataset.html;
 const screen_text_length = screen_text.length;
 
@@ -50,11 +52,8 @@ const getTechnologyElements = () => {
     });
 }
 
-
 const cursorInterval = () => {
-    screen_lines_element.innerHTML = screen_text;
-    if (currentIndex % 2 === 0) screen_lines_element.innerHTML += '|';
-    currentIndex++;
+    cursorSpan.classList.toggle('no-show');
 }
 
 const intervalFunc = () => {
@@ -67,7 +66,8 @@ const intervalFunc = () => {
     currentIndex++;
     if (currentIndex >= screen_text_length) textOutputDone = true;
     if (textOutputDone) {
-        screen_lines_element.innerHTML = screen_text + '|';
+        screen_lines_element.innerHTML = screen_text + '<span id="cursor"></span><br><br>';
+        cursorSpan = document.getElementById('cursor');
         document.getElementById('disable-typing-directive').classList.toggle('no-show');
         fadeInTechnologies();
         const monitor_screen = document.querySelector('.monitor-screen');

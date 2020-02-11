@@ -4,6 +4,7 @@
     --light-bg: #DBC39F;
     --background: #7D9C8C;
     --dark-bg: #144527;
+    
 }
 
 * {
@@ -139,7 +140,7 @@ nav {
     position: absolute;
     right: 0;
     top: -100px;
-    background-color: var(--light-bg);
+    background-color: var(--background);
     min-width: 128px;
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 2;

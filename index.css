@@ -38,7 +38,7 @@ header {
     position: absolute;
     left: 5%;
     top: 7%;
-    width: 91%;
+    width: 90%;
     height: 62%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -48,16 +48,7 @@ header {
 #screen-lines {
     font-family: "Courier New", Courier, monospace;
     color: var(--light-bg);
-}
-
-#favorite-message {
-    font-family: "Courier New", Courier, monospace;
-    color: var(--light-bg);
-    margin-top: 10px;
-}
-
-#favorite-message.no-show {
-    display: none;
+    padding: 0.2rem;
 }
 
 #additional-technologies {
@@ -120,11 +111,26 @@ header {
     }
 }
 
-a {
-    color: var(--light-color);
+.about {
+    background-color: var(--dark-bg);
+    padding: 0.1rem;
+    border-radius: 5px;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     font-family: inherit;
+}
+
+#cursor {
+    overflow: visible;
+    height: 0.8rem;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid var(--light-bg);
+}
+
+#cursor.no-show {
+    visibility: hidden;
 }
 
 @media screen and (min-width: 417px) {
