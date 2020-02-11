@@ -100,15 +100,16 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 2;
     cursor: pointer;
     width: 57px;
     height: 57px;
     opacity: 0;
+    z-index: 102;
 }
 
 .hamburger {
     position: absolute;
+    z-index: 101;
     top: 0;
     right: 0;
     width: 57px;
@@ -197,6 +198,10 @@ nav {
 
 .card h1, p {
     padding: 12px 0;
+}
+
+.checkbox-label {
+    display: none;
 }
 
 p {
