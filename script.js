@@ -27,20 +27,20 @@ const fadeInTechnologies = () => {
 
 const getTechnologyElements = () => {
     const favoriteTechnologies = [
-        {img: "JavaScript.png", alt: "JavaScript"},
-        {img: "Node.png", alt: "Node.JS"},
-        {img: "Express.png", alt: "Express.JS"},
-        {img: "React.png", alt: "React.JS"},
-        {img: "CSS.png", alt: "CSS3"},
-        {img: "HTML.png", alt: "HTML5"},
-        {img: "TypeScript.png", alt: "TypeScript"},
-        {img: "Git.png", alt: "Git"},
-        {img: "GitHub.png", alt: "GitHub"},
-        {img: "AWS.png", alt: "Amazon Web Services"},
-        {img: "Linux.png", alt: "Linux"},
-        {img: "Postgre.png", alt: "PostgreSQL"},
-        {img: "Mongo.png", alt: "MongoDB"},
-        {img: "VisualStudioCode.png", alt: "Visual Studio Code"}
+        {img: "JavaScript.png", alt: "JavaScript", URL: 'https://www.javascript.com/'},
+        {img: "Node.png", alt: "Node.JS", URL: 'https://nodejs.org/'},
+        {img: "Express.png", alt: "Express.JS", URL: 'https://expressjs.com/'},
+        {img: "React.png", alt: "React.JS", URL: 'https://reactjs.org/'},
+        {img: "CSS.png", alt: "CSS3", URL: 'https://www.w3.org/Style/CSS/'},
+        {img: "HTML.png", alt: "HTML5", URL: 'https://whatwg.org/'},
+        {img: "TypeScript.png", alt: "TypeScript", URL: 'https://www.typescriptlang.org/'},
+        {img: "Git.png", alt: "Git", URL: 'https://git-scm.com/'},
+        {img: "GitHub.png", alt: "GitHub", URL: 'https://github.com/'},
+        {img: "AWS.png", alt: "Amazon Web Services", URL: 'https://aws.amazon.com/'},
+        {img: "Linux.png", alt: "Linux", URL: 'https://www.linux.org/'},
+        {img: "Postgre.png", alt: "PostgreSQL", URL: 'https://www.postgresql.org/'},
+        {img: "Mongo.png", alt: "MongoDB", URL: 'https://www.mongodb.com/'},
+        {img: "VisualStudioCode.png", alt: "Visual Studio Code", URL: 'https://code.visualstudio.com/'}
     ];
     const technologyTemplate = document.getElementById('technology-example');
     return favoriteTechnologies.map(technology => {
