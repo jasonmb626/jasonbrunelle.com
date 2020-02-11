@@ -182,6 +182,7 @@ nav {
 .card div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
@@ -195,6 +196,7 @@ nav {
 
 p {
     font-size: 1.1rem;
+    text-align: center;
 }
 
 p.lead {

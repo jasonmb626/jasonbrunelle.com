@@ -7,11 +7,12 @@ main {
     min-height: 100vh;
     background: url(./portfolio.jpg) center center/cover;
     height: 100vh;
+    width: 100%;
     overflow-y: scroll;
 }
 
 .container {
-    width: 80%;
+    width: 95%;
     height: 100%;
     margin: auto;
     padding-top: 5px;
@@ -58,6 +59,17 @@ ul {
     margin-bottom: 1rem;
 }
 
+.screenshots {
+    display: block;
+    width: 100%;
+}
 .screenshot {
     margin: 10px;
+    max-width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
 }
