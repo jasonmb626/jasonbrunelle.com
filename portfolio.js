@@ -9,7 +9,7 @@ const addComeInClass = partial => {
         const cardBottom = card.offsetTop + card.offsetHeight;
         compareTop    = partial === true ? cardBottom : cardTop,
         compareBottom = partial === true ? cardTop : cardBottom;
-        if ((compareBottom <= viewBottom) && (compareTop >= viewTop )) {
+        if (compareBottom <= viewBottom - Math.floor(window.innerHeight / 3) && compareTop >= viewTop ) {
             card.classList.add('come-in');
         }
     });
