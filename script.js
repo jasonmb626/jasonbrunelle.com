@@ -46,9 +46,11 @@ const getTechnologyElements = () => {
     return favoriteTechnologies.map(technology => {
         const technologyElement = technologyTemplate.cloneNode(true);
         const img = technologyElement.content.querySelector('img');
+        const anchor = technologyElement.content.querySelector('a');
         img.src = `images/png/${technology.img}`;
         img.alt = technology.alt;
-        return img;
+        anchor.href = technology.URL;
+        return technologyElement.content;
     });
 }
 
