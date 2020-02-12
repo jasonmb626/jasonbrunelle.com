@@ -30,8 +30,8 @@ main {
     transform: translateX(200px);
 }
 
-.card:nth-child(even) {
-    transform: translateX(-200px);
+.card:last-of-type {
+    margin-bottom: 100px;
 }
 
 .come-in {
