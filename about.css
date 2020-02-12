@@ -21,7 +21,7 @@ main {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--light-color);
     cursor: pointer;
     background-color: var(--main-color);
     padding: 10px;
