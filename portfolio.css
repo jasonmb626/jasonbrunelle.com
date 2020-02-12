@@ -30,8 +30,19 @@ main {
     transform: translateX(200px);
 }
 
+.card:nth-child(even) {
+    transform: translateX(-200px);
+}
+
 .card:last-of-type {
     margin-bottom: 100px;
+}
+
+.role {
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: red;
 }
 
 .come-in {
@@ -58,6 +69,7 @@ h1 {
 
 h3 {
     font-size: 1.75rem;
+    color: var(--main-color);
 }
 
 h5 {
