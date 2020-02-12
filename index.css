@@ -16,6 +16,10 @@ main {
     position: relative;
 }
 
+h1 {
+    display: none; /*Will this h1 (duplicate content so hidden) help accessibility?*/
+}
+
 #disable-typing-directive {
     display: inline-block;
     position: absolute;
