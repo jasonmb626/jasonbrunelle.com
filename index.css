@@ -81,6 +81,15 @@ h1 {
     margin: 8px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.technology-example svg {
+    height: 5rem;
+    fill: var(--fill);
+}
+
 .technology-example:hover {
     background-color: var(--background);
 }
