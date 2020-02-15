@@ -19,7 +19,7 @@ main {
     overflow-y: visible;
 }
 
-a {
+.btn {
     text-decoration: none;
     color: var(--light-color);
     cursor: pointer;
