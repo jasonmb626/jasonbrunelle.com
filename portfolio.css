@@ -8,6 +8,7 @@ main {
     background: url(./portfolio.jpg) center center/cover;
     height: 100vh;
     width: 100%;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
@@ -16,7 +17,7 @@ main {
     height: 100%;
     margin: auto;
     padding-top: 5px;
-    overflow: visible;
+    overflow-y: visible;
 }
 
 .card {
